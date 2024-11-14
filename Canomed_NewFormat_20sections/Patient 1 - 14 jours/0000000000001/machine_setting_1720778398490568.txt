@@ -1,0 +1,14 @@
+cfg.serialNumber=1720778398490568
+cfg.lastEditionDate=12072024_120001
+cfg.algo.mode=0
+cfg.algo.cpap.press=4.0
+cfg.algo.ramp.mode=0
+cfg.algo.epr.type=0
+cfg.algo.mask=0
+cfg.algo.tube=0
+cfg.algo.ab_filter=0
+cfg.algo.smart_start=0
+cfg.algo.smart_stop=0
+cfg.humidifier=0
+cfg.heatedTube=0
+cfg.algo.pt_access=0

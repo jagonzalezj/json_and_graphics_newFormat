@@ -1,0 +1,40 @@
+mcu.sw_ver;0.00.00_Mar 27 2024_15:37:01
+power.vin;24163
+modem.imei;351901930047612
+modem.hw_ver;nRF9160 SICA B1A
+modem.sw_ver;nrf9160_1.3.5
+modem.slm_ver;2.0.0
+sdp8.product;0x03020101
+sdp8.snr;0x0000000085f74efc
+cfg.version;1
+cfg.id.patient_name;X X X X 0123 ABCD
+cfg.id.snr;0000000000000
+cfg.gui.backligth;25
+cfg.gui.lang;0
+cfg.cc.pt_access;1
+cfg.cc.enable;1
+cfg.cc.level;1
+cfg.hum.pt_access;1
+cfg.hum.enable;1
+cfg.hum.level;1
+cfg.hum.climate_control;0
+cfg.algo.mode;1
+cfg.algo.smart_start;1
+cfg.algo.ab_filter;0
+cfg.algo.mask;1
+cfg.algo.tube;0
+cfg.algo.cpap.press_start;4
+cfg.algo.cpap.press;10
+cfg.algo.apap.press_start;4
+cfg.algo.apap.press_min;5
+cfg.algo.apap.press_max;12
+cfg.algo.apap.comfort;1
+cfg.algo.ramp.pt_access;1
+cfg.algo.ramp.mode;0
+cfg.algo.ramp.duration;60
+cfg.algo.epr.pt_access;1
+cfg.algo.epr.enable;1
+cfg.algo.epr.level;1
+cfg.algo.epr.duration;600
+cfg.algo.epr.type;2
+cfg.tech.turbine_sum_duration;599642

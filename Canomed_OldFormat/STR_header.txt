@@ -1,0 +1,2 @@
+Version,Patient,Recording,Startdate,Startime,Bytes,Reserved,NumRec,Duration,NumSig
+0       ,X X X X 37F6 3DB1                                                               ,Startdate 14-OCT-2022 X X X SRN=23171889175  MID=36  VID=26                     ,14.10.22,12.00.00,20736   ,EDF                                         ,425,86400.00,80

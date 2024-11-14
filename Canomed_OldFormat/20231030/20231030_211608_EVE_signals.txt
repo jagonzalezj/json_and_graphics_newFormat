@@ -1,0 +1,2 @@
+Signal,Label,Transducer,Units,Min,Max,Dmin,Dmax,PreFilter,Smp/Rec,Reserved
+2,Crc16           ,                                                                                ,        ,-32768.000000,32767.000000,-32768,32767,                                                                                ,1,                                

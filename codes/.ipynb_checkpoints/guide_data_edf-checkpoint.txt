@@ -1,0 +1,108 @@
+Hello Gaétan, 
+Merci pour ton aide de ce matin, j'arrive à lire le fichier SRT.edf. 
+
+A l'attention de l'équipe :
+Je dois maintenant étudier son contenu.
+J'aimerais par exemple récupérer la date d'un jour, j'imagine que je dois lire les signaux, choisir un index i qui correspond à un jour donné. 
+Dans le fichier SRT.edf je vois que la première "colonne" (ou le premier signal ?) correspond à des valeurs de temps. J'imagine que c'est en milliseconds.
+Voici le résultat de la première valeur du signal 0 (Date) => 'Date : 19279.0', ce qui donne : Thu Jan 01 1970 00:00:19.
+
+@Gaétan, comment déduire la première date s'il te plait ? 
+De ce que j'ai compris, on aura que les derniers 7 jours dans l'architecture des dossiers, je ne peux pas me fier à cette information.
+
+Je remarque que le fichier contient 80 signaux et 425 jours de données.
+Voici les labels des signaux et les valeurs du jour 0, (on utilise pas tout mais on fera le tri) :
+Date : 19279.0
+MaskOn : 631.0
+MaskOff : 1081.0
+MaskEvents : 2.0
+Duration : 450.0
+OnDuration : 450.0
+PatientHours : 14606.0
+Mode : 1.0
+S.RampEnable : 2.0
+S.RampTime : 45.0
+S.C.StartPress : 4.0
+S.C.Press : 10.0
+S.EPR.ClinEnable : 1.0
+S.EPR.EPREnable : 1.0
+S.EPR.Level : 1.0
+S.EPR.EPRType : 0.0
+S.AS.Comfort : 0.0
+S.AS.StartPress : 5.0
+S.AS.MaxPress : 10.0
+S.AS.MinPress : 6.0
+S.SmartStart : 1.0
+S.PtAccess : 0.0
+S.ABFilter : 0.0
+S.Mask : 1.0
+S.Tube : 1.0
+S.ClimateControl : 0.0
+S.HumEnable : 1.0
+S.HumLevel : 5.0
+S.TempEnable : 2.0
+S.Temp : 27.0
+HeatedTube : 0.0
+Humidifier : 1.0
+BlowPress.95 : 10.620000000000001
+BlowPress.5 : 7.0200000000000005
+Flow.95 : 0.48
+Flow.5 : 0.192
+BlowFlow.50 : 35.64
+AmbHumidity.50 : 13.0
+HumTemp.50 : 35.6
+HTubeTemp.50 : 0.0
+HTubePow.50 : 0.0
+HumPow.50 : 13.0
+SpO2.50 : 0.0
+SpO2.95 : 0.0
+SpO2.Max : 0.0
+SpO2Thresh : 0.0
+MaskPress.50 : 7.68
+MaskPress.95 : 9.6
+MaskPress.Max : 9.84
+TgtIPAP.50 : 7.68
+TgtIPAP.95 : 9.6
+TgtIPAP.Max : 9.84
+TgtEPAP.50 : 7.68
+TgtEPAP.95 : 9.6
+TgtEPAP.Max : 9.84
+Leak.50 : 0.04
+Leak.95 : 0.58
+Leak.70 : 0.12
+Leak.Max : 1.08
+MinVent.50 : 7.125
+MinVent.95 : 8.625
+MinVent.Max : 10.875
+RespRate.50 : 17.0
+RespRate.95 : 21.400000000000002
+RespRate.Max : 41.400000000000006
+TidVol.50 : 0.4
+TidVol.95 : 0.48
+TidVol.Max : 0.58
+AHI : 0.4
+HI : 0.1
+AI : 0.2
+OAI : 0.1
+CAI : 0.1
+UAI : 0.0
+CSR : 0.0
+Fault.Device : 0.0
+Fault.Alarm : 0.0
+Fault.Humidifier : 0.0
+Fault.HeatedTube : 0.0
+Crc16 : -26584.0
+@Gaétan, peux-tu m'indiquer si je suis sur la bonne voie et si les valeurs sont cohérentes stp ? 
+Merci d'avance pour ton aide. 
+
+Jérôme
+
+
+ReBonjour,
+
+La date est en jour depuis le 01/01/1970, 19279 -> 14 octobre 2022
+L'info est en E43 de https://ceres.dascience.fr:8443/nextcloud/index.php/apps/files/?dir=/1.%20Data&openfile=2430
+
+Tu es sur la bonne voie, et les valeurs sont OK.
+
+Gaétan

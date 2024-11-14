@@ -1,0 +1,12 @@
+Onset,Duration,Annotation
++0,0,Recording starts
++8091,16,Obstructive Apnea
++9570,0,Hypopnea
++11669,11,Central Apnea
++12988,12,Central Apnea
++17137,20,Obstructive Apnea
++23096,20,Obstructive Apnea
++23143,25,Obstructive Apnea
++24340,0,Hypopnea
++24845,13,Obstructive Apnea
++34999,11,Central Apnea

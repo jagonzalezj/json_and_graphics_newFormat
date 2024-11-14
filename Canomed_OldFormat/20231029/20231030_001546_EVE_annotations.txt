@@ -1,0 +1,5 @@
+Onset,Duration,Annotation
++0,0,Recording starts
++4212,12,Obstructive Apnea
++7278,10,Obstructive Apnea
++13973,10,Central Apnea

@@ -1,0 +1,2 @@
+Version,Patient,Recording,Startdate,Startime,Bytes,Reserved,NumRec,Duration,NumSig
+0       ,X X X X 7911 B0A2                                                               ,Startdate 30-OCT-2023 X X X SRN=23171889175  MID=36  VID=26                     ,30.10.23,21.16.10,768     ,EDF+D                                       ,11,0.00    ,1

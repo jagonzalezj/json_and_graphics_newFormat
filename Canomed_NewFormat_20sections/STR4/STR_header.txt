@@ -1,0 +1,2 @@
+Version,Patient,Recording,Startdate,Startime,Bytes,Reserved,NumRec,Duration,NumSig
+0       ,X X X X_X_X_X_0123_ABCD                                                         ,Startdate 13-JUN-2024 X X Canomed_SNR:0000000000000                             ,13.06.24,12.00.00,20480   ,EDF                                         ,15,1       ,79
